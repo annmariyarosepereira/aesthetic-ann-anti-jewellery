@@ -1,0 +1,12 @@
+[build]
+  command = "cd Backend && npm ci && cd ../Frontend && npm ci && npm run build"
+  publish = "Frontend/dist"
+
+[functions]
+  directory = "Backend/netlify/functions"
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

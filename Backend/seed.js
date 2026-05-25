@@ -403,7 +403,7 @@ const sampleProducts = [
     salePrice: 999,
     category: "bangles",
     material: "Structured Gold-Tone Bangle",
-    images: ["/images/products/bangle1.jpeg"],
+    images: ["/images/products/bangles1.jpeg"],
     stock: 20,
     isOnSale: true,
     careInstructions: "Structured ridge-style gold bangle. High-polish gold-tone finish. Durable and comfortable. Modern minimalist aesthetic."
